@@ -1,0 +1,142 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/* Sub-Section */
+
+.container-title {
+	display: block;
+	text-align: center;
+	margin: 0 350px;
+	padding: 6px 10px;
+	background-color: rgba(238,238,238,0.9);
+	border: solid;
+}
+
+.container-title h2 {
+	padding-top: 20px;
+}
+
+.sub-section {
+	text-align: left;
+	border-bottom: solid;
+}
+
+.story {
+	padding: 10px 0;
+	text-align: left;
+}
+
+.character-photo {
+	display: inline-block;
+	width: 200px;
+	margin: 30px 0px 10px 10px;
+}
+
+.table-char {
+	text-align: left;
+}
+
+.table-char td {
+	padding-left: 2px;
+	width: 200px;
+}
+
+/* Index */
+
+.question {
+	text-align: left;
+	padding: 10px 0 5px 5px;
+}
+
+.answer {
+	text-align: left;
+	padding: 10px 0 10px 15px;
+}
+
+#firstName {
+	margin-right: 10px;
+}
+
+.background-index {
+	background-image: url(/img/index-background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Nier: Automata */
+
+.background-nier {
+	background-image: url(/img/nier-background.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#nier-logo {
+	width: 150px;
+	padding-top: 20px;
+}
+
+
+#char-2b {
+	width: 100px;
+}
+
+#char-9s {
+	width: 65px;
+}
+
+/* TLOU */
+.background-tlou {
+	background-image: url(/img/tlou-background.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#tlou-logo {
+	width: 150px;
+	padding-top: 20px;
+}
+
+#char-joel {
+	width: 100px;
+}
+
+#char-ellie {
+	width: 100px;
+}
+
+/* FFXV */
+
+.background-ffxv {
+	background-image: url(/img/ffxv-background.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#ffxv-logo {
+	width: 150px;
+	padding-top: 20px;
+}
+
+#char-noctis {
+	width: 150px;
+	height: 150px;
+}
+
+#char-gladio {
+	width: 150px;
+	height: 150px;
+}
+
+#char-prompto {
+	width: 150px;
+	height: 150px;
+}
+
+#char-ignis {
+	width: 150px;
+	height: 150px;
+}
