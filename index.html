@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Your Game</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="index.js"></script>
+</head>
+
+<body class="background-index">
+	<div class="container-title">
+		<div class="sub-section">
+			<h2>Introduction</h2>
+		</div>
+		<div class="story">
+			<p>Are you a Gamers? You like to play a game? Bored to play the game you're playing right now? <br><br>
+				Then why don't you take the question that we made below and we will recommend you with several BEST
+				GAME that
+				ever made based on your answer. <br><br>
+				Before we go, please feel free to fill your name down below.</p>
+		</div>
+		<div>
+			<input type="text" name="firstName" id="firstName" placeholder="First Name" required>
+			<input type="text" name="lastName" id="lastName" placeholder="Last Name" required>
+		</div>
+		<div class="sub-section">
+			<h2>Question</h2>
+		</div>
+		<div class="question">
+			1. Which time setting of the game that you loved most?
+		</div>
+		<div class="answer">
+			<input type="radio" value="a" name="question1" id="q1a"> A. Post apocalyptic war <br><br>
+			<input type="radio" value="b" name="question1" id="q1b"> B. Future world with zombie-monster <br><br>
+			<input type="radio" value="c" name="question1" id="q1c"> C. Fantasy world with beautiful scenery
+		</div>
+		<div class="question">
+			2. Which type of hero that you loved to play?
+		</div>
+		<div class="answer">
+			<input type="radio" value="a" name="question2" id="q2a"> A. Android robot with sword and gun</input><br><br>
+			<input type="radio" value="b" name="question2" id="q2b"> B. Badass old man with little girl roaming
+			around</input><br><br>
+			<input type="radio" value="c" name="question2" id="q2c"> C. Usual teenanger with cool car</input>
+		</div>
+		<div class="question">
+			3. Travel buddies?
+		</div>
+		<div class="answer">
+			<input type="radio" value="a" name="question3" id="q3a"> A. Loved ones (boyfriend /
+			girlfriend)</input><br><br>
+			<input type="radio" value="b" name="question3" id="q3b"> B. Family</input><br><br>
+			<input type="radio" value="c" name="question3" id="q3c"> C. Friends</input>
+		</div>
+		<div class="question">
+			4. Which one do you prefer?
+		</div>
+		<div class="answer">
+			<input type="radio" value="a" name="question4" id="q4a"> A. Best soundtrack</input><br><br>
+			<input type="radio" value="b" name="question4" id="q4b"> B. Best narative</input><br><br>
+			<input type="radio" value="c" name="question4" id="q4c"> C. Best graphic</input>
+		</div>
+		<br>
+		<button onclick="submit(); getName()" id="button1">Check Your Game</button>
+</body>
+
+</html>
